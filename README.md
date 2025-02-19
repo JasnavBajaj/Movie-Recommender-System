@@ -46,9 +46,3 @@ Clone this repository to your local machine using the following commands:
 git clone https://github.com/yourusername/your-repo-name.git
 cd your-repo-name```
 
-### 2. Install Required Packages:
-Make sure have Python installed. Then install the necessary Python Libraries:
-```bash
-pip install -r requirements.txt
-
-(Alernatively, install packages manually: `pandas`,`numpy`, `scikit-learn`, `nltk`, `streamlit`, `pickle`, and `requests`)
