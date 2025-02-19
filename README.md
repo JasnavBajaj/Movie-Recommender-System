@@ -25,7 +25,7 @@ The Movie Recommender System:
 - Computes cosine similarity between movies to determine which movies are similar.
 - Provides movie recommendations through a function in the notebook and an interactive Streamlit web app that also fetches movie posters via the TMDB API.
 
-- ## Features
+## Features
 
 - **Data Acquisition**: Automated download and extraction of the TMDB movie dataset from Kaggle.
 - **Data Processing**: Merges movie and credits data, handles missing values, and creates a comprehensive tags field.
