@@ -3,6 +3,8 @@
 
 This project is a content-based movie recommendation system built using Python. It leverages movie metadata (including genres, keywords, cast, and crew) from the [TMDB Movie Metadata dataset](https://www.kaggle.com/tmdb/tmdb-movie-metadata) on Kaggle, and provides movie recommendations based on textual similarity. The project includes a Jupyter Notebook for data processing and model building (`movie-recommend.ipynb`) and a Streamlit web app (`app.py`) for an interactive user interface.
 
+---
+
 ## Table of Contents
 
 - [Overview](#overview)
@@ -16,6 +18,8 @@ This project is a content-based movie recommendation system built using Python. 
 - [License](#license)
 - [Acknowledgments](#acknowledgments)
 
+---
+
 ## Overview
 
 The Movie Recommender System:
@@ -26,6 +30,8 @@ The Movie Recommender System:
 - Computes cosine similarity between movies to determine which movies are similar.
 - Provides movie recommendations through a function in the notebook and an interactive Streamlit web app that also fetches movie posters via the TMDB API.
 
+---
+
 ## Features
 
 - **Data Acquisition**: Automated download and extraction of the TMDB movie dataset from Kaggle.
@@ -34,10 +40,14 @@ The Movie Recommender System:
 - **Similarity Computation**: Uses cosine similarity to find similar movies.
 - **Interactive Web App**: Built with Streamlit, allowing users to select a movie and view recommendations along with movie posters.
 
+---
+
 ## Dataset
 
 - **Source**: [TMDB Movie Metadata Dataset on Kaggle](https://www.kaggle.com/tmdb/tmdb-movie-metadata)
 - **Files Used**: `tmdb_5000_movies.csv` and `tmdb_5000_credits.csv`
+
+---
 
 ## Installation
 
@@ -64,6 +74,8 @@ pip install -r requirements.txt
 ### 4. Download the Dataset:
 The Jupyter Notebook (`movie-recommend.ipynb`) includes commands to download and extract the dataset from Kaggle.
 
+---
+
 ## Usage
 
 ### Running the Data Processing Notebook
@@ -89,6 +101,8 @@ The Jupyter Notebook (`movie-recommend.ipynb`) includes commands to download and
    ```
 4. The app will open in your default web browser. Use the dropdown to select a movie and click the "Recommend" button to see the recommendations along with movie posters.
 
+---
+
 ## How It Works
 
 - **Data Processing**: The notebook cleans and preprocesses the dataset, extracting features like genres, keywords, cast, and crew. It then creates a combined "tags" field for each movie.
@@ -99,10 +113,13 @@ The Jupyter Notebook (`movie-recommend.ipynb`) includes commands to download and
   
 - **Web Interface**: The Streamlit app allows users to interact with the recommender system, showing movie titles and posters by fetching them from the TMDB API.
 
+---
 
 ## Environment Variables
 
 - **TMDB_API_KEY** : Required for fetching movie posters from the TMDB API. Set this variable in your environment before running the Streamlit app.
+
+---
 
 ## Dependencies
 - Python 3.x
@@ -115,16 +132,20 @@ The Jupyter Notebook (`movie-recommend.ipynb`) includes commands to download and
 - Requests
 - Pickle (standard library)
 
+---
 
 ## License
 
 This project is licensed under the MIT License. See the LICENSE file for details.
+
+---
 
 ## Acknowledgments
 - Kaggle for providing the dataset.
 - TMDB for the movie poster API.
 - Open-source libraries and communities that made this project possible.
 
+---
 
 **For any questions or issues, please open an issue on the repository or contact `bjasnav@gmail.com`.**
 
