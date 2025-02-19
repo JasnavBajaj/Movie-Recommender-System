@@ -37,3 +37,11 @@ The Movie Recommender System:
 
 - **Source**: [TMDB Movie Metadata Dataset on Kaggle](https://www.kaggle.com/tmdb/tmdb-movie-metadata)
 - **Files Used**: `tmdb_5000_movies.csv` and `tmdb_5000_credits.csv`
+
+## Installation
+
+### 1. Clone the Repository
+Clone this repository to your local machine using the following commands:
+```bash
+git clone https://github.com/yourusername/your-repo-name.git
+cd your-repo-name
