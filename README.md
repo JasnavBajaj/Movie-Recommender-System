@@ -44,5 +44,12 @@ The Movie Recommender System:
 Clone this repository to your local machine using the following commands:
 ```bash
 git clone https://github.com/yourusername/your-repo-name.git
-cd your-repo-name```
+cd your-repo-name
+```
+### 2. Install Required Packages:
+Make sure you have Python installed. Then install the necessary Python libraries:
+```bash
+pip install -r requirements.txt
+```
+(Alternatively, install packages manually: `pandas`, `numpy`, `scikit-learn`, `nltk`, `streamlit`, `pickle`, and `requests`.)
 
