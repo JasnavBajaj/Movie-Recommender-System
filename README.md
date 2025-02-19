@@ -64,3 +64,26 @@ pip install -r requirements.txt
 ### 4. Download the Dataset:
 The Jupyter Notebook (`movie-recommend.ipynb`) includes commands to download and extract the dataset from Kaggle.
 
+## Usage
+
+### Running the Data Processing Notebook
+
+1. Open the Jupyter Notebook `movie-recommend.ipynb`.
+2. Run the cells sequentially to:
+   - Download and extract the dataset.
+   - Process and clean the data.
+   - Build the similarity matrix and generate the movie dictionary.
+   - Save the processed data as pickle files (`movies_dict.pkl` and `similarity.pkl`)
+
+### Running the Streamlit Web App
+1. Ensure that `movies_dict.pkl` and `similarity.pkl` are present in the project folder (generated from the notebook).
+2. Set your TMDB API key as an environment variable:
+   ```bash
+   export TMDB_API_KEY=your_tmdb_api_key_here
+   ```
+   (Alternatively, update the key directly in `app.py` if you prefer.)
+3. Run the app:
+   ```bash
+   streamlit run app.py
+   ```
+4. The app will open in your default web browser. Use the dropdown to select a movie and click the "Recommend" button to see the recommendations along with movie posters.
