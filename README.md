@@ -98,3 +98,29 @@ The Jupyter Notebook (`movie-recommend.ipynb`) includes commands to download and
 - **Recommendation**: Given a movie title, the system finds the most similar movies based on the computed similarity scores.
   
 - **Web Interface**: The Streamlit app allows users to interact with the recommender system, showing movie titles and posters by fetching them from the TMDB API.
+
+
+## Environment Variables
+
+- **TMDB_API_KEY** : Required for fetching movie posters from the TMDB API. Set this variable in your environment before running the Streamlit app.
+
+## Dependencies
+- Python 3.x
+- Kaggle API
+- Pandas
+- NumPy
+- Scikit-learn
+- NLTK
+- Streamlit
+- Requests
+- Pickle (standard library)
+
+
+## License
+
+This project is licensed under the MIT License. See the LICENSE file for details.
+
+## Acknowledgments
+- Kaggle for providing the dataset.
+- TMDB for the movie poster API.
+- Open-source libraries and communities that made this project possible.
