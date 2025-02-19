@@ -76,6 +76,7 @@ The Jupyter Notebook (`movie-recommend.ipynb`) includes commands to download and
    - Save the processed data as pickle files (`movies_dict.pkl` and `similarity.pkl`)
 
 ### Running the Streamlit Web App
+
 1. Ensure that `movies_dict.pkl` and `similarity.pkl` are present in the project folder (generated from the notebook).
 2. Set your TMDB API key as an environment variable:
    ```bash
@@ -87,3 +88,13 @@ The Jupyter Notebook (`movie-recommend.ipynb`) includes commands to download and
    streamlit run app.py
    ```
 4. The app will open in your default web browser. Use the dropdown to select a movie and click the "Recommend" button to see the recommendations along with movie posters.
+
+## How It Works
+
+- **Data Processing**: The notebook cleans and preprocesses the dataset, extracting features like genres, keywords, cast, and crew. It then creates a combined "tags" field for each movie.
+  
+- **Vectorization & Similarity**: The text data is transformed into numerical vectors using CountVectorizer, and cosine similarity is computed to find similar movies.
+  
+- **Recommendation**: Given a movie title, the system finds the most similar movies based on the computed similarity scores.
+  
+- **Web Interface**: The Streamlit app allows users to interact with the recommender system, showing movie titles and posters by fetching them from the TMDB API.
