@@ -1,3 +1,4 @@
+
 # Movie Recommender System
 
 This project is a content-based movie recommendation system built using Python. It leverages movie metadata (including genres, keywords, cast, and crew) from the [TMDB Movie Metadata dataset](https://www.kaggle.com/tmdb/tmdb-movie-metadata) on Kaggle, and provides movie recommendations based on textual similarity. The project includes a Jupyter Notebook for data processing and model building (`movie-recommend.ipynb`) and a Streamlit web app (`app.py`) for an interactive user interface.
@@ -52,4 +53,14 @@ Make sure you have Python installed. Then install the necessary Python libraries
 pip install -r requirements.txt
 ```
 (Alternatively, install packages manually: `pandas`, `numpy`, `scikit-learn`, `nltk`, `streamlit`, `pickle`, and `requests`.)
+
+### 3. Kaggle API Setup:
+- Install the Kaggle API client:
+  ```bash
+  pip install kaggle
+  ```
+- Place your `kaggle.json` (downloadable from your Kaggle account) in the project root or follow the commands in the notebook to configure the credentials.
+
+### 4. Download the Dataset:
+The Jupyter Notebook (`movie-recommend.ipynb`) includes commands to download and extract the dataset from Kaggle.
 
