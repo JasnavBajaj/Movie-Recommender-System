@@ -14,3 +14,21 @@ This project is a content-based movie recommendation system built using Python. 
 - [Dependencies](#dependencies)
 - [License](#license)
 - [Acknowledgments](#acknowledgments)
+
+## Overview
+
+The Movie Recommender System:
+- Downloads and extracts the TMDB Movie Metadata dataset using the Kaggle API.
+- Processes and cleans the data (merging movie details and credits, handling missing values, and extracting useful features).
+- Creates a 'tags' column that combines key textual information (overview, genres, keywords, cast, crew) and preprocesses it using stemming.
+- Converts the tags into a numerical feature vector using a Count Vectorizer.
+- Computes cosine similarity between movies to determine which movies are similar.
+- Provides movie recommendations through a function in the notebook and an interactive Streamlit web app that also fetches movie posters via the TMDB API.
+
+- ## Features
+
+- **Data Acquisition**: Automated download and extraction of the TMDB movie dataset from Kaggle.
+- **Data Processing**: Merges movie and credits data, handles missing values, and creates a comprehensive tags field.
+- **NLP Processing**: Applies tokenization and stemming to improve text matching.
+- **Similarity Computation**: Uses cosine similarity to find similar movies.
+- **Interactive Web App**: Built with Streamlit, allowing users to select a movie and view recommendations along with movie posters.
