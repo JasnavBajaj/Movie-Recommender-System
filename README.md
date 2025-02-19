@@ -32,3 +32,8 @@ The Movie Recommender System:
 - **NLP Processing**: Applies tokenization and stemming to improve text matching.
 - **Similarity Computation**: Uses cosine similarity to find similar movies.
 - **Interactive Web App**: Built with Streamlit, allowing users to select a movie and view recommendations along with movie posters.
+
+## Dataset
+
+- **Source**: [TMDB Movie Metadata Dataset on Kaggle](https://www.kaggle.com/tmdb/tmdb-movie-metadata)
+- **Files Used**: `tmdb_5000_movies.csv` and `tmdb_5000_credits.csv`
