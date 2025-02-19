@@ -124,3 +124,9 @@ This project is licensed under the MIT License. See the LICENSE file for details
 - Kaggle for providing the dataset.
 - TMDB for the movie poster API.
 - Open-source libraries and communities that made this project possible.
+
+
+**For any questions or issues, please open an issue on the repository or contact `bjasnav@gmail.com`.**
+
+
+
